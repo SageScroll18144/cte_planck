@@ -9,8 +9,7 @@
 double R_LDR;
 
 //Definições do LED Utilizado
-
-ll int freq = pow(10, 4);
+ll int freq = pow(10, 4);//ALTERAR VALOR DE ACORDO COM O LED
 
 double cte_planck;
 
