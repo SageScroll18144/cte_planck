@@ -17,7 +17,7 @@ double cte_planck;
 void setup() {Serial.begin(9600);}
 
 void loop() {   
-  R_LDR = (DDP*R_dvt/(analogRead(pinR_dvt)*0.0048828125)) - R_dvt;
+  R_LDR = (DDP*R_dvt/(analogRead(pinR_dvt)*(5/1023))) - R_dvt;
   
   cte_planck = pow(DDP, 2) * (1/R_LDR) * pow((1/freq), 2);
   
