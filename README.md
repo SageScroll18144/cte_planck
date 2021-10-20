@@ -15,6 +15,11 @@ Uma *tentativa* de determinar a constante de planck experimentalmente com Arduin
 -> U²/R * T² = cte_planck
 ```
 
+## Váriaveis
+- Tensão: Obtida pelo _datasheet_ do Arduino
+- Tempo/Frequência: Obtido no _datasheet_ do LED
+- Resistência do LDR: Obtida no cálculo!
+
 ## Cálculo de Resistência 
 - Para determinar a resistência foi implementado um divisor de tensão
 ![Screenshot](/imgs/calc_dvt.jpeg)
