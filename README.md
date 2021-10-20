@@ -1,5 +1,5 @@
 # cte_planck
-Uma *tentativa* de determinar a constante de planck experimentalmente com Arduino rs
+Uma _tentativa_ de determinar a constante de planck experimentalmente com Arduino _rsrsrs_
 
 ## Ideia inicial
 
@@ -30,3 +30,4 @@ Uma *tentativa* de determinar a constante de planck experimentalmente com Arduin
 #### Obs.: Falta o LED!
 
 ## Código
+- O código pode ser visto: *https://github.com/SageScroll18144/cte_planck/blob/main/exp_planck/exp_planck.ino*
