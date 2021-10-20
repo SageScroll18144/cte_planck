@@ -3,7 +3,7 @@ Uma *tentativa* de determinar a constante de planck experimentalmente com Arduin
 
 ## Ideia inicial
 
-- A principal ideia é utilizar a(s) seguintes equações: 
+- A principal ideia é utilizar as seguintes equações: 
 
 ```
 * E = cte_planck * (1/T) = P * T = i * U * T
