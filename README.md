@@ -17,5 +17,11 @@ Uma *tentativa* de determinar a constante de planck experimentalmente com Arduin
 
 ## Cálculo de Resistência 
 - Para determinar a resistência foi implementado um divisor de tensão
+![Screenshot](/imgs/calc_dvt.jpeg)
 
+## Circuito
 ![Screenshot](/imgs/planck_fto.png)
+
+#### Obs.: Falta o LED!
+
+## Código
