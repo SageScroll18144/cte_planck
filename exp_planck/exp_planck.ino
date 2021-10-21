@@ -13,12 +13,14 @@ ll int freq = pow(10, 4);//ALTERAR VALOR DE ACORDO COM O LED
 
 double cte_planck;
 
+ll int start_time = millis();
+
 void setup() {Serial.begin(9600);}
 
 void loop() {   
   R_LDR = (DDP*R_dvt/(analogRead(pinR_dvt)*(5/1023))) - R_dvt;
   
-  cte_planck = pow(DDP, 2) * (1/R_LDR) * pow((1/freq), 2);
+  cte_planck = pow(DDP, 2) * (1/R_LDR) * (1/freq) * (1000 * (millis()-start_time));
   
   Serial.println(cte_planck);
   Serial.println(R_LDR);
