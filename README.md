@@ -1,5 +1,5 @@
 # cte_planck
-Uma _tentativa_ de determinar a constante de planck experimentalmente com Arduino 
+Determinar a constante de planck experimentalmente com Arduino 
 
 - Duas Ideias
 
