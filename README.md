@@ -1,7 +1,12 @@
 # cte_planck
-Uma _tentativa_ de determinar a constante de planck experimentalmente com Arduino _rsrsrs_
+Uma _tentativa_ de determinar a constante de planck experimentalmente com Arduino 
 
-## Ideia inicial
+- Duas Ideias
+i) A primeira ideia que motivou esse projeto: Utilizar as equações de eletrodinâmica para determinar a constante. 
+
+ii) A Atual e mais promissora: Utilizar as equações clássicas para determinar a constante.
+
+# Ideia inicial
 
 - A principal ideia é utilizar as seguintes equações: 
 
@@ -31,3 +36,26 @@ Uma _tentativa_ de determinar a constante de planck experimentalmente com Arduin
 
 ## Código
 - O código pode ser visto: *https://github.com/SageScroll18144/cte_planck/blob/main/exp_planck/exp_planck.ino*
+
+# Ideia Atual
+
+- A principal ideia é utilizar as seguintes equações:
+
+```
+			h <=> cte_planck
+			
+-> E = h * f           | c =  λ * f
+                       |
+-> h * f = e * Vo      | f = c / λ
+                       | 
+-> h =  λ * e * Vo / c 
+```
+
+## Váriaveis
+- e: Carga Elementar 
+- c: Velocidade da Luz
+- λ: Amplitude do LED
+- Vo: Tensão de corte
+- f: Frequência
+
+#### Obs.: A amplitude inicialmente vai ser utilizada o valor do _datasheet_, entretanto possivelmente será implementado um espectrômetro para automatizar mais o processo
