@@ -60,3 +60,7 @@ Determinar a constante de planck experimentalmente com Arduino
 - f: Frequência
 
 #### Obs.: A amplitude inicialmente vai ser utilizada o valor do _datasheet_, entretanto possivelmente será implementado um espectrômetro para automatizar mais o processo
+
+### Código
+- O código pode ser visto: *https://github.com/SageScroll18144/cte_planck/blob/main/exp_planck_II/exp_planck_II.ino*
+
