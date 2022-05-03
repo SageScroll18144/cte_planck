@@ -2,11 +2,12 @@
 Uma _tentativa_ de determinar a constante de planck experimentalmente com Arduino 
 
 - Duas Ideias
-i) A primeira ideia que motivou esse projeto: Utilizar as equações de eletrodinâmica para determinar a constante. 
 
-ii) A Atual e mais promissora: Utilizar as equações clássicas para determinar a constante.
+![i)](https://github.com/SageScroll18144/cte_planck#ideia-inicial) A primeira ideia que motivou esse projeto: Utilizar as equações de eletrodinâmica para determinar a constante. 
 
-# Ideia inicial
+![ii)](https://github.com/SageScroll18144/cte_planck#ideia-atual) A Atual e mais promissora: Utilizar as equações clássicas para determinar a constante.
+
+## Ideia inicial
 
 - A principal ideia é utilizar as seguintes equações: 
 
@@ -20,38 +21,38 @@ ii) A Atual e mais promissora: Utilizar as equações clássicas para determinar
 -> U²/R * T * (1/f) = cte_planck
 ```
 
-## Váriaveis
+### Váriaveis
 - Tensão: Obtida pelo _datasheet_ do Arduino
 - Tempo/Frequência: Obtido no _datasheet_ do LED
 - Resistência do LDR: Obtida no cálculo!
 
-## Cálculo de Resistência 
+### Cálculo de Resistência 
 - Para determinar a resistência foi implementado um divisor de tensão
 ![Screenshot](/imgs/calc_dvt.jpeg)
 
-## Circuito
+### Circuito
 ![Screenshot](/imgs/planck_fto.png)
 
 #### Obs.: Falta o LED!
 
-## Código
+### Código
 - O código pode ser visto: *https://github.com/SageScroll18144/cte_planck/blob/main/exp_planck/exp_planck.ino*
 
-# Ideia Atual
+## Ideia Atual
 
 - A principal ideia é utilizar as seguintes equações:
 
 ```
-			h <=> cte_planck
-			
--> E = h * f           | c =  λ * f
-                       |
--> h * f = e * Vo      | f = c / λ
-                       | 
+	   h <=> cte_planck
+-------------------------------------	
+-> E = h * f           | c =  λ * f |
+                       |            |
+-> h * f = e * Vo      | f = c / λ  |
+                       |            |
 -> h =  λ * e * Vo / c 
 ```
 
-## Váriaveis
+### Váriaveis
 - e: Carga Elementar 
 - c: Velocidade da Luz
 - λ: Amplitude do LED
