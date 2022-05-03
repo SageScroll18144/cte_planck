@@ -1,9 +1,11 @@
 #define e 1.6*pow(10, -19)
 #define c 3*1e8
 #define lambda 123 //variavel vai dx de existir
+#define Rled 150
+#define Iled 20 * pow(10,-3)
 
 #define lim_ft 110 //quando o led já estiver bom baixa luminosidade
-#define T_lim 5 //tensao máx na porta analogica(calcular de acordo com o Resistor do LED)
+#define T_lim -(Rled* Iled - 5)
 
 const int led = A0;
 const int ldr = A1;
